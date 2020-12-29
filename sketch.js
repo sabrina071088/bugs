@@ -107,7 +107,7 @@ async function getBackgroundImg(){
 
     var datetime = responseJSON.datetime;
     var hour = datetime.slice(11,13);
-    
+    //to give a daynight background setting
     if(hour>=0600 && hour<=1900){
         bg = "sprites/bg1.png";
     }
